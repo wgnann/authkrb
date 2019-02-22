@@ -1,0 +1,46 @@
+authkrb Plugin for DokuWiki
+
+Kerberos Ugly Auth Plugin
+
+
+
+How to Install:
+
+First, install php krb5 module. In a Debian system it can be done with these commands:
+
+    $ apt install libtool-bin libkrb5-dev php-pear php-dev
+    $ pecl install krb5
+
+Then, you should configure PHP to use krb5.so module. Just insert the line
+
+    extension=krb5.so
+
+before the specific module configurations at php.ini.
+
+At last, clone this repository to your Dokuwiki's plugin directory.
+
+
+
+All documentation for this plugin can be found at
+https://github.com/wgnann/authkrb
+
+If you install this plugin manually, make sure it is installed in
+lib/plugins/authkrb/ - if the folder is called different it
+will not work!
+
+Please refer to http://www.dokuwiki.org/plugins for additional info
+on how to install plugins in DokuWiki.
+
+----
+Copyright (C) Will Gnann <gnann@ime.usp.br>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; version 2 of the License
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+See the LICENSING file for details

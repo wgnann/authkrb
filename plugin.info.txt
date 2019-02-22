@@ -1,0 +1,7 @@
+base   authkrb
+author Will Gnann
+email  gnann@ime.usp.br
+date   2019-02-22
+name   authkrb plugin
+desc   Kerberos Ugly Auth Plugin
+url    https://github.com/wgnann/authkrb
